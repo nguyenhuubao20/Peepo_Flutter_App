@@ -37,7 +37,7 @@ class ButtonLoginByGmail extends StatelessWidget {
             }
             return Center(
               child: Text(
-                'Đăng nhập bằng Gmail',
+                'Sign in with Google',
                 style: GoogleFonts.openSans(
                     textStyle: TextStyle(
                         fontSize: 17 * widget.ffem,

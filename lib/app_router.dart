@@ -63,14 +63,14 @@ class AppRouter {
           transitionDuration: const Duration(milliseconds: 300),
         ),
         GetPage(
-          name: orderHistory,
-          page: () => OrderHistoryScreen(),
+          name: productSearch,
+          page: () => BottomNavigation(child: ProductSearchScreen()),
           transition: Transition.cupertino,
           transitionDuration: const Duration(milliseconds: 300),
         ),
         GetPage(
-          name: productSearch,
-          page: () => ProductSearchScreen(),
+          name: orderHistory,
+          page: () => BottomNavigation(child: OrderHistoryScreen()),
           transition: Transition.cupertino,
           transitionDuration: const Duration(milliseconds: 300),
         ),

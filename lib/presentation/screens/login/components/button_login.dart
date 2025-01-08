@@ -45,7 +45,7 @@ class ButtonLogin extends StatelessWidget {
             }
             return Center(
               child: Text(
-                'Đăng nhập',
+                'Sign in',
                 style: GoogleFonts.openSans(
                     textStyle: TextStyle(
                         fontSize: 17 * widget.ffem,

@@ -99,7 +99,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
                       ),
                       const SizedBox(height: 32),
                       Text(
-                        'Đặt hàng thành công!',
+                        'Order successful!',
                         style: GoogleFonts.openSans(
                           fontSize: 24,
                           fontWeight: FontWeight.w800,
@@ -108,7 +108,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        'Cảm ơn bạn đã mua sắm tại Kalban',
+                        'Thank you for shopping at Kalban',
                         style: GoogleFonts.openSans(
                           fontSize: 16,
                           color: Colors.grey[600],
@@ -139,16 +139,16 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
       ),
       child: Column(
         children: [
-          _buildInfoRow('Mã đơn hàng', order?.orderCode ?? 'XE9123KD'),
+          _buildInfoRow('Order code', order?.orderCode ?? 'XE9123KD'),
           _buildInfoRow(
-            'Ngày đặt',
+            'Date booked',
             order?.createdDate != null
                 ? Validation.formatDateTime(order?.createdDate)
                 : 'Không có dữ liệu',
           ),
-          _buildInfoRow(
-              'Tổng tiền', Validation.formatCurrency(order?.totalAmount ?? 0)),
-          _buildInfoRow('Phương thức thanh toán', 'COD'),
+          _buildInfoRow('Total amount',
+              Validation.formatCurrency(order?.totalAmount ?? 0)),
+          _buildInfoRow('Payment method', 'COD'),
         ],
       ),
     );
@@ -207,7 +207,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Đơn hàng đang được xử lý',
+                  'Order is being processed',
                   style: GoogleFonts.openSans(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
@@ -216,7 +216,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'Dự kiến giao hàng trong 2-3 ngày tới',
+                  'Estimated delivery in 2-3 days',
                   style: GoogleFonts.openSans(
                     fontSize: 14,
                     color: Colors.blue[700],
@@ -248,7 +248,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
         children: [
           ElevatedButton(
             onPressed: () {
-              AppRouter.navigateToHome();
+              AppRouter.navigateToOrderHistory();
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black87,
@@ -259,7 +259,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
               ),
             ),
             child: Text(
-              'Xem đơn hàng của tôi',
+              'View my order',
               style: GoogleFonts.openSans(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
@@ -275,7 +275,7 @@ class _OrderSuccessScreenState extends State<OrderSuccessScreen>
               minimumSize: const Size(double.infinity, 52),
             ),
             child: Text(
-              'Tiếp tục mua sắm',
+              'Continue shopping',
               style: GoogleFonts.openSans(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,

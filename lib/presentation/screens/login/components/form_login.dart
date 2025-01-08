@@ -136,7 +136,7 @@ Widget _buildAuthIntial(
             controller: userNameController,
             decoration: InputDecoration(
               prefixIcon: Icon(Icons.person),
-              hintText: 'Tên đăng nhập',
+              hintText: 'Username',
               hintStyle: GoogleFonts.openSans(
                 fontSize: 15 * ffem,
                 color: Colors.grey,
@@ -156,7 +156,7 @@ Widget _buildAuthIntial(
             controller: passwordController,
             decoration: InputDecoration(
               prefixIcon: Icon(Icons.lock),
-              hintText: 'Mật khẩu',
+              hintText: 'Password',
               hintStyle: GoogleFonts.openSans(
                 fontSize: 15 * ffem,
                 color: Colors.grey,

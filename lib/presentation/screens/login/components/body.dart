@@ -38,7 +38,7 @@ class Body extends StatelessWidget {
               ),
               SizedBox(height: 24 * hem),
               Text(
-                'Chào mừng bạn đến với Kalban!',
+                'Welcome to Kalban!',
                 style: GoogleFonts.openSans(
                   fontSize: 22 * ffem,
                   fontWeight: FontWeight.w900,
@@ -48,7 +48,7 @@ class Body extends StatelessWidget {
               ),
               SizedBox(height: 16 * hem),
               Text(
-                'Đăng nhập và tận hưởng những ưu đãi\nyêu thích của bạn!',
+                'Sign in and enjoy your favorite offers!',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.openSans(
                   fontSize: 16 * ffem,
@@ -66,7 +66,7 @@ class Body extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Bạn chưa có tài khoản?',
+                      'Dont have an account?',
                       style: GoogleFonts.openSans(
                         fontSize: 14 * ffem,
                         fontWeight: FontWeight.w600,
@@ -80,7 +80,7 @@ class Body extends StatelessWidget {
                         // Navigation to registration
                       },
                       child: Text(
-                        'Đăng ký ngay',
+                        'Sign up now',
                         style: GoogleFonts.openSans(
                           fontSize: 14 * ffem,
                           fontWeight: FontWeight.w700,

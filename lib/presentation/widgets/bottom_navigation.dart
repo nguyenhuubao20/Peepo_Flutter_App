@@ -46,19 +46,19 @@ class _BottomNavigationState extends State<BottomNavigation> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Trang chủ',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
-            label: 'Tìm kiếm',
+            label: 'Search',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.inventory_outlined),
-            label: 'Đơn hàng',
+            label: 'Order',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
-            label: 'Tài khoản',
+            label: 'Setting',
           ),
         ],
       ),

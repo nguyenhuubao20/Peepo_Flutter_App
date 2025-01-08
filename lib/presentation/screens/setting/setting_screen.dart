@@ -78,7 +78,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'John Doe',
+                  'Nguyen Van A',
                   style: GoogleFonts.poppins(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
@@ -87,7 +87,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'john.doe@example.com',
+                  'nguyenvana@gmail.com',
                   style: GoogleFonts.poppins(
                     fontSize: 14,
                     color: Colors.grey[600],

@@ -15,11 +15,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final List<String> categories = [
-    'Tất cả',
-    'Túi xách',
-    'Ba lô',
-    'Túi đeo chéo',
-    'Phụ kiện'
+    'All',
+    'Hand bag',
+    'Backpack',
+    'Crossbody bag',
+    'Accessory'
   ];
 
   int selectedCategory = 0;
@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  'Các sản phẩm mới nhất',
+                  'Latest products',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  'Danh mục',
+                  'Category',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -126,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  'Sản phẩm nổi bật',
+                  'Featured Products',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
