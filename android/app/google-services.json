@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485247232682",
+    "project_id": "peepo-2a833",
+    "storage_bucket": "peepo-2a833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485247232682:android:f749740264d25187c3bed3",
+        "android_client_info": {
+          "package_name": "com.example.peefo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAXrSyawepN-XzbWPms_d8JZfc-M4bwEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
